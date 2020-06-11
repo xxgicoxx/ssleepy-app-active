@@ -1,6 +1,17 @@
-/* a{
-    font-size: 18px;
-} */
+/* App */
+.content-padding {
+	padding-top: 20px;
+	padding-bottom: 45px;
+}
+
+/* Mouse View */
+.ui-mouse {
+	background-color: #303030;
+	background-image: linear-gradient(#000, #000);
+  	background-size: 2px 100%;
+  	background-repeat: no-repeat;
+  	background-position: center center;
+}
 
 /* Input Text */
 .ui-input {
@@ -78,6 +89,22 @@
 .settings-icon:before {
     -webkit-mask-image: url(../images/controller/settings.png);
 }
+
+.mouse-icon:before {
+    -webkit-mask-image: url(../images/controller/mouse.png);
+}
+
+.close-icon:before {
+    -webkit-mask-image: url(../images/controller/close.png);
+}
+.btn-icon-check::before {
+	background-color: rgba(245, 245, 245, 1);
+	-webkit-mask-image: url(../images/popup/check.png);
+ }
+.btn-icon-cancel::before {
+	background-color: rgba(245, 245, 245, 1);
+	-webkit-mask-image: url(../images/popup/cancel.png);
+ }
 
 .app-icon {
 	width: 30px;

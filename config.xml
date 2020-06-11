@@ -8,4 +8,5 @@
     <tizen:privilege name="http://tizen.org/privilege/internet"/>
     <tizen:profile name="wearable"/>
     <tizen:setting hwkey-event="enable"/>
+    <tizen:setting background-support="enable"/>
 </widget>
