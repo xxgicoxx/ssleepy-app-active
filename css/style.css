@@ -4,6 +4,11 @@
 	padding-bottom: 45px;
 }
 
+.ui-content section {
+	overflow: hidden;
+	overflow-y: auto;
+}
+
 /* Mouse View */
 .ui-mouse {
 	background-color: #303030;
