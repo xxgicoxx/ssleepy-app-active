@@ -7,8 +7,8 @@ $(document).ready(function() {
 		post('/next/');
 	});
 	
-	$(document).on('click', '#prev', function(e) {
-		post('/prev/');
+	$(document).on('click', '#previous', function(e) {
+		post('/previous/');
 	});
 	
 	$(document).on('click', '#volumeup', function(e) {

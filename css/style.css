@@ -67,8 +67,8 @@
     -webkit-mask-image: url(../images/controller/next.png);
 }
 
-.prev-icon:before {
-    -webkit-mask-image: url(../images/controller/prev.png);
+.previous-icon:before {
+    -webkit-mask-image: url(../images/controller/previous.png);
 }
 
 .mute-icon:before {
