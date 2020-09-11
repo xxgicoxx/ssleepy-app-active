@@ -1,4 +1,4 @@
-# SSleepy App
+# SSleepy App Active
 Application to control Windows remotely with Samsung Galaxy Watch Active 2.
 
 ![SSleepy App](https://i.imgur.com/LWf2bHe.jpg)
