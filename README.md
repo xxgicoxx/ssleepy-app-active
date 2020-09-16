@@ -4,6 +4,7 @@ Application to control Windows remotely with Samsung Galaxy Watch Active 2.
 ![SSleepy App](https://i.imgur.com/LWf2bHe.jpg)
 
 ### Prerequisites
+* [SSleepy Server](https://github.com/xxgicoxx/ssleepy-server) - SSleepy Server
 * [Tizen Studio](https://developer.tizen.org/development/tizen-studio/download) - Tizen Studio
 
 ### Running
