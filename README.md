@@ -29,10 +29,10 @@ Application to control Windows remotely with Samsung Galaxy Watch Active 2.
 ### 1. Run
 ````
 # Import Project on Tizen Studio
-File > Import > Tizen > Tizen Project
+File > Import > Tizen > Tizen Project.
 
 # Start
-Right click on SSleepy > Run As > Tizen Web Application
+Right click on SSleepy > Run As > Tizen Web Application.
 ````
 
 # Built With
