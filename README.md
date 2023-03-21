@@ -1,16 +1,32 @@
 # SSleepy App Active
 Application to control Windows remotely with Samsung Galaxy Watch Active 2.
 
-![SSleepy App](https://i.imgur.com/LWf2bHe.jpg)
+<p align="center">
+  <img src="assets/imgs/sslepy.jpg">
+</p>
 
-### Prerequisites
-* [SSleepy Server](https://github.com/xxgicoxx/ssleepy-server) - SSleepy Server
-* [Tizen Studio](https://developer.tizen.org/development/tizen-studio/download) - Tizen Studio
+# Features
+* Shutdown
+* Restart
+* Play
+* Pause
+* Next
+* Previous
+* Volume Up
+* Volume Down
+* Mute
+* Close
+* Fullscreen
+* Mouse
+* Left Click
+* Right Click
 
-### Running
-The application run locally, just package and use.
+# Prerequisites
+* [SSleepy Server](https://github.com/xxgicoxx/ssleepy-server)
+* [Tizen Studio](https://developer.tizen.org/development/tizen-studio/download)
 
-### Run
+# Running
+### 1. Run
 ````
 # Import Project on Tizen Studio
 File > Import > Tizen > Tizen Project
@@ -19,11 +35,11 @@ File > Import > Tizen > Tizen Project
 Right click on SSleepy > Run As > Tizen Web Application
 ````
 
-### Built With
+# Built With
 * [Tizen](https://docs.tizen.org/application/web/index)
 
-### Authors
-* **Giovani de Oliveira** - [xxgicoxx](https://github.com/xxgicoxx)
+# Authors
+* [xxgicoxx](https://github.com/xxgicoxx)
 
-### Acknowledgments
-* [FlatIcon](https://www.flaticon.com/) - Icon
+# Acknowledgments
+* [FlatIcon](https://www.flaticon.com/)

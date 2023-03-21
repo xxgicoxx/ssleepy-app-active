@@ -3,10 +3,10 @@ function post(uri) {
         url: ip() + uri,
         contentType: 'application/json',
         dataType: 'json',
-        success: function(data) { 
+        success: function() { 
         	console.log('Success');
         },
-        error: function(data) { 
+        error: function() { 
         	console.log('Error') ;
         }
     });

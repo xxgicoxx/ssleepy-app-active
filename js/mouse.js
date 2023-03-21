@@ -1,14 +1,14 @@
 $(document).ready(function() {
+	const socket = io.connect(ip(), { transports: ['websocket'] });
+
 	let page = null;
-	let pageid = null;
+	let pageId = null;
 	
 	let lastPosX = null;
 	let lastPosY = null;
 	
 	let onMovement = false;
 	let moved = false;
-
-	let socket = io.connect(ip(), { transports: ['websocket'] });
 	
 	document.addEventListener('touchstart', function(e) {
 		socket.sendBuffer = [];
@@ -23,12 +23,12 @@ $(document).ready(function() {
 		
 		if(!onMovement) {
 			page = document.getElementsByClassName('ui-page-active')[0];
-			pageid = page ? page.id : '';
+			pageId = page ? page.id : '';
 			
 			lastPosX = lastPosX || e.touches[0].clientX;
 			lastPosY = lastPosY || e.touches[0].clientY;
 			
-			if(pageid === 'mouse') {
+			if(pageId === 'mouse') {
 				onMovement = true;
 				
 				socket.emit('movemouse', {
@@ -48,9 +48,9 @@ $(document).ready(function() {
 		socket.sendBuffer = [];
 		
 		page = document.getElementsByClassName('ui-page-active')[0];
-		pageid = page ? page.id : '';
+		pageId = page ? page.id : '';
 		
-		if(pageid === 'mouse') {
+		if(pageId === 'mouse') {
 			if(moved) {
 				lastPosX = null;
 				lastPosY = null;
